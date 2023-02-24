@@ -3,11 +3,11 @@
 using namespace std;
  int main()
 {
-int val[] = { 60, 100, 120 };
-int wt[] = { 10, 20, 30 };
-int W = 50;
-int n = sizeof(val) / sizeof(val[0]);
-cout << knapSack(W, wt, val, n);
+int val[] = {10,7,1,3,2 };
+int wt[] = {9,12,2,7,5 };
+int w = 50;
+int n = 5;
+cout << knapSack(w, wt, val, n);
 return 0;
 }
 
